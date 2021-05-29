@@ -9,15 +9,15 @@ class NumPicker extends React.Component {
         if (num == 7) {
             msg = 
             <div>
-                <h2>YASSS,</h2><img src="https://dl.glitter-graphics.com/pub/588/588437g5dypvrpv1.gif" /><h2>!!!</h2>
-                <img src="https://media1.tenor.com/images/f3321d0fc2b66c005cae93f9f0846b7c/tenor.gif?itemid=5498264" />
+                <img src="https://media.giphy.com/media/U3mFHSLxNqjRhUd9uU/source.gif" />
+                <h2>SLAY QUEEN, SLAYYY!!!</h2>
             </div>
         } else {
             msg = <p>Sorry - Try again!</p>
         }
         return (
             <div>
-                <h1>Your number is {num} </h1>
+                <h1>Your number is {num}</h1>
                 {/* <p>{num === 7 ? 'Congrats!' : 'Unlucky!'}</p>
                 {
                     num === 7 && 
